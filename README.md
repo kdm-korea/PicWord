@@ -1,2 +1,2 @@
 # PicWord
-English education for virtual reality and speech recognition
+Virtual reality and speech recognition for English education
