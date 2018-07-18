@@ -23,6 +23,21 @@ public class ControllerGrabObject : MonoBehaviour {
         collidingObject = col.gameObject;
     }
 
+    public void OnTriggerEnter(Collider other) {
+        SetColldingObject(other);
+    }
+
+    public void OnTriggerStay(Collider other) {
+        SetColldingObject(other);
+    }
+
+    public void OnTriggerExit(Collider other) {
+        if (!collidingObject) {
+            return;
+        }
+        collidingObject = null;
+    }
+
     private void GrabObject() {
         var joint = AddFixedJoint();
         objectInHand = collidingObject;
