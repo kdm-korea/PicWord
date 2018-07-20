@@ -4,14 +4,76 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TouchGlassBall : MonoBehaviour {
-    public GameObject respawnPrefab;
-    public GameObject respawn;
+    private SteamVR_TrackedObject trackedObj;
+    private GameObject collidingObject;
+    private GameObject objectInHand;
 
-    public void SceneChage() {
-        if (respawn == null) {
-            //respawn = GameObject.FindWithTag
+    private SteamVR_Controller.Device Controller {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
+
+    void Awake() {
+        trackedObj = GetComponent<SteamVR_TrackedObject>();
+    }
+
+    private void SetColldingObject(Collider col) {
+        if (collidingObject || !col.GetComponent<Rigidbody>()) {
+            return;
         }
-        SceneManager.LoadScene("");
+        collidingObject = col.gameObject;
+    }
+
+    public void OnTriggerEnter(Collider other) {
+        Debug.Log(other);
+
+    }
+
+    public void OnTriggerStay(Collider other) {
+        SetColldingObject(other);
+    }
+
+    public void OnTriggerExit(Collider other) {
+        if (!collidingObject) {
+            return;
+        }
+        collidingObject = null;
+    }
+
+    private void GrabObject() {
+        var joint = AddFixedJoint();
+        objectInHand = collidingObject;
+        collidingObject = null;
+        joint.connectedBody = objectInHand.GetComponent<Rigidbody>();
+    }
+
+    private FixedJoint AddFixedJoint() {
+        FixedJoint fx = gameObject.AddComponent<FixedJoint>();
+        fx.breakForce = 20000;
+        fx.breakTorque = 20000;
+        return fx;
+    }
+
+    private void RelaseObject() {
+        if (GetComponent<FixedJoint>()) {
+            GetComponent<FixedJoint>().connectedBody = null;
+            Destroy(GetComponent<FixedJoint>());
+            objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity;
+            objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
+        }
+        objectInHand = null;
+    }
+
+    void Update() {
+        if (Controller.GetHairTriggerDown()) {
+            if (collidingObject) {
+                GrabObject();
+            }
+        }
+        else if (Controller.GetHairTriggerUp()) {
+            if (objectInHand) {
+                RelaseObject();
+            }
+        }
     }
 }
 
