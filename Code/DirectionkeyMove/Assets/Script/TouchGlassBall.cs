@@ -24,8 +24,7 @@ public class TouchGlassBall : MonoBehaviour {
     }
 
     public void OnTriggerEnter(Collider other) {
-        Debug.Log(other);
-
+        SetColldingObject(other);
     }
 
     public void OnTriggerStay(Collider other) {
@@ -63,6 +62,15 @@ public class TouchGlassBall : MonoBehaviour {
         objectInHand = null;
     }
 
+    private void GlassBall() {
+        
+    }
+
+    private void ChangeScene(string sceneName) { //Scene Move to SceneName
+        //effect function
+        SceneManager.LoadScene(sceneName);  //Chaneg Scene
+    }
+
     void Update() {
         if (Controller.GetHairTriggerDown()) {
             if (collidingObject) {
@@ -76,20 +84,3 @@ public class TouchGlassBall : MonoBehaviour {
         }
     }
 }
-
-//객체를 마우스로 이동시키고 싶을 때, 사용하기 편하게 해주는 스크립트
-//스크립트 파일을 원하는 객체에 드래그
-
-//public class draggrameobject : monobehaviour {
-//    ienumerator onmousedown() {
-//        vector3 scrspace = camera.main.worldtoscreenpoint(transform.position);
-//        vector3 offset = transform.position - camera.main.screentoviewportpoint(new vector3(input.mouseposition.x, input.mouseposition.y, input.mouseposition.z));
-//        while (input.getmousebutton(0)) {
-//            vector3 curscreenspace = new vector3(input.mouseposition.x, input.mouseposition.y, input.mouseposition.z);
-
-//            vector3 curposition = camera.main.screentoviewportpoint(curscreenspace) + offset;
-//            transform.position = curposition;
-//            yield return null;
-//        }
-//    }
-//}
