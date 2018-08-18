@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: ced1bd4994d842d4a93f5666778dc276
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Duck
+    100004: //RootNode
+    100006: DuckArmature
+    100008: Foot_L
+    100010: Foot_R
+    100012: LowerLeg_L
+    100014: LowerLeg_R
+    100016: Pole_L
+    100018: Pole_R
+    100020: Root
+    100022: Tail
+    100024: Toes_L
+    100026: Toes_R
+    100028: ToesIK_L
+    100030: ToesIK_R
+    100032: Torso
+    100034: UpperLeg_L
+    100036: UpperLeg_R
+    100038: Wing_L
+    100040: Wing_R
+    100042: Duck1
+    400000: Bone
+    400002: //RootNode
+    400004: Duck
+    400006: DuckArmature
+    400008: Foot_L
+    400010: Foot_R
+    400012: LowerLeg_L
+    400014: LowerLeg_R
+    400016: Pole_L
+    400018: Pole_R
+    400020: Root
+    400022: Tail
+    400024: Toes_L
+    400026: Toes_R
+    400028: ToesIK_L
+    400030: ToesIK_R
+    400032: Torso
+    400034: UpperLeg_L
+    400036: UpperLeg_R
+    400038: Wing_L
+    400040: Wing_R
+    400042: Duck1
+    4300000: Duck
+    4300002: Duck1
+    7400000: Duck_EatLoop
+    7400002: Duck_Dive
+    7400004: Duck_IdleSit
+    7400006: Duck_Idle
+    7400008: Duck_Run
+    7400010: Duck_Sit
+    7400012: Duck_StartEat
+    7400014: Duck_Swim
+    7400016: Duck_Walk
+    9500000: //RootNode
+    13700000: Duck
+    13700002: Duck1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Duck_EatLoop
+      takeName: Duck_EatLoop
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Dive
+      takeName: Duck_Dive
+      firstFrame: 1
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_IdleSit
+      takeName: Duck_IdleSit
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Idle
+      takeName: Duck_Idle
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Run
+      takeName: Duck_Run
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Sit
+      takeName: Duck_Sit
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_StartEat
+      takeName: Duck_StartEat
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Swim
+      takeName: Duck_Swim
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck_Walk
+      takeName: Duck_Walk
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck1
+        weight: 1
+      - path: DuckArmature
+        weight: 1
+      - path: DuckArmature/Pole_L
+        weight: 1
+      - path: DuckArmature/Pole_R
+        weight: 1
+      - path: DuckArmature/Root
+        weight: 1
+      - path: DuckArmature/Root/Tail
+        weight: 1
+      - path: DuckArmature/Root/Torso
+        weight: 1
+      - path: DuckArmature/Root/Torso/Bone
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: DuckArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: DuckArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: DuckArmature/ToesIK_L
+        weight: 1
+      - path: DuckArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

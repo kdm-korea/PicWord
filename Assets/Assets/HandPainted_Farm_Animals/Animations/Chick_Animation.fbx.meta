@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 52adb70e71ce92b4581d24f1cfecdbeb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Chick
+    100004: //RootNode
+    100006: ChickArmature
+    100008: Foot_L
+    100010: Foot_R
+    100012: Heel_L
+    100014: Heel_R
+    100016: LowerLeg_L
+    100018: LowerLeg_R
+    100020: Pole_L
+    100022: Pole_R
+    100024: Root
+    100026: Toes_L
+    100028: Toes_R
+    100030: ToesIK_L
+    100032: ToesIK_R
+    100034: Torso
+    100036: UpperLeg_L
+    100038: UpperLeg_R
+    100040: Wing_L
+    100042: Wing_R
+    400000: Bone
+    400002: //RootNode
+    400004: Chick
+    400006: ChickArmature
+    400008: Foot_L
+    400010: Foot_R
+    400012: Heel_L
+    400014: Heel_R
+    400016: LowerLeg_L
+    400018: LowerLeg_R
+    400020: Pole_L
+    400022: Pole_R
+    400024: Root
+    400026: Toes_L
+    400028: Toes_R
+    400030: ToesIK_L
+    400032: ToesIK_R
+    400034: Torso
+    400036: UpperLeg_L
+    400038: UpperLeg_R
+    400040: Wing_L
+    400042: Wing_R
+    4300000: Chick
+    7400000: Chick_Walk
+    7400002: Chick_EatLoop
+    7400004: Chick_Idle
+    7400006: Chick_IdleSit
+    7400008: Chick_Run
+    7400010: Chick_Sit
+    7400012: Chick_StartEat
+    7400014: Chick_Run
+    9500000: //RootNode
+    13700000: Chick
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chick_Walk
+      takeName: Chick_Walk
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_EatLoop
+      takeName: Chick_EatLoop
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_Idle
+      takeName: Chick_Idle
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_IdleSit
+      takeName: Chick_IdleSit
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_Run
+      takeName: Chick_Running
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_Sit
+      takeName: Chick_Sit
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chick_StartEat
+      takeName: Chick_StartEat
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chick
+        weight: 1
+      - path: ChickArmature
+        weight: 1
+      - path: ChickArmature/Pole_L
+        weight: 1
+      - path: ChickArmature/Pole_R
+        weight: 1
+      - path: ChickArmature/Root
+        weight: 1
+      - path: ChickArmature/Root/Torso
+        weight: 1
+      - path: ChickArmature/Root/Torso/Bone
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: ChickArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: ChickArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: ChickArmature/ToesIK_L
+        weight: 1
+      - path: ChickArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

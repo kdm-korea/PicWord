@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 8e844e302c783804cba02618e09fd9b2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Foot_L
+    100004: Foot_R
+    100006: Heel_L
+    100008: Heel_R
+    100010: //RootNode
+    100012: Hen
+    100014: HenArmature
+    100016: LowerLeg_L
+    100018: LowerLeg_R
+    100020: Pole_L
+    100022: Pole_R
+    100024: Root
+    100026: Tail
+    100028: Toes_L
+    100030: Toes_R
+    100032: ToesIK_L
+    100034: ToesIK_R
+    100036: Torso
+    100038: UpperLeg_L
+    100040: UpperLeg_R
+    100042: Wing_L
+    100044: Wing_R
+    100046: Hen1
+    400000: Bone
+    400002: Foot_L
+    400004: Foot_R
+    400006: Heel_L
+    400008: Heel_R
+    400010: Hen
+    400012: //RootNode
+    400014: HenArmature
+    400016: LowerLeg_L
+    400018: LowerLeg_R
+    400020: Pole_L
+    400022: Pole_R
+    400024: Root
+    400026: Tail
+    400028: Toes_L
+    400030: Toes_R
+    400032: ToesIK_L
+    400034: ToesIK_R
+    400036: Torso
+    400038: UpperLeg_L
+    400040: UpperLeg_R
+    400042: Wing_L
+    400044: Wing_R
+    400046: Hen1
+    4300000: Hen
+    4300002: Hen1
+    7400000: Hen_Run
+    7400002: Hen_EatLoop
+    7400004: Hen_Idle
+    7400006: Hen_IdleSit
+    7400008: Hen_Sit
+    7400010: Hen_StartEat
+    7400012: Hen_Walk
+    9500000: //RootNode
+    13700000: Hen
+    13700002: Hen1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hen_Run
+      takeName: Hen_Run
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_EatLoop
+      takeName: Hen_EatLoop
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_Idle
+      takeName: Hen_Idle
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_IdleSit
+      takeName: Hen_IdleSit
+      firstFrame: 1
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_Sit
+      takeName: Hen_Sit
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_StartEat
+      takeName: Hen_StartEat
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hen_Walk
+      takeName: Hen_Walk
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hen1
+        weight: 1
+      - path: HenArmature
+        weight: 1
+      - path: HenArmature/Pole_L
+        weight: 1
+      - path: HenArmature/Pole_R
+        weight: 1
+      - path: HenArmature/Root
+        weight: 1
+      - path: HenArmature/Root/Tail
+        weight: 1
+      - path: HenArmature/Root/Torso
+        weight: 1
+      - path: HenArmature/Root/Torso/Bone
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_L
+        weight: 1
+      - path: HenArmature/Root/Torso/Wing_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L/Heel_L
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: HenArmature/Root/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R/Heel_R
+        weight: 1
+      - path: HenArmature/ToesIK_L
+        weight: 1
+      - path: HenArmature/ToesIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

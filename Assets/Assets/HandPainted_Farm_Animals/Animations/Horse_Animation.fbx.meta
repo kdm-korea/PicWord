@@ -1,0 +1,647 @@
+fileFormatVersion: 2
+guid: 0cc733c9430f0264da1d8747adcd676d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BackFoot_L
+    100002: BackFoot_R
+    100004: BackFootIK_L
+    100006: BackFootIK_R
+    100008: BackLowerLeg_L
+    100010: BackLowerLeg_R
+    100012: BackUpperLeg_L
+    100014: BackUpperLeg_R
+    100016: Ear_L
+    100018: Ear_R
+    100020: FrontFoot_L
+    100022: FrontFoot_R
+    100024: FrontFootIK_L
+    100026: FrontFootIK_R
+    100028: FrontLowerLeg_L
+    100030: FrontLowerLeg_R
+    100032: FrontUpperLeg_L
+    100034: FrontUpperLeg_R
+    100036: Head
+    100038: //RootNode
+    100040: Horse
+    100042: HorseArmature
+    100044: Pole_L
+    100046: Pole_R
+    100048: PoleBack_L
+    100050: PoleBack_R
+    100052: Root
+    100054: Spine
+    100056: Tail
+    100058: "Tai\xC9nd"
+    100060: Torso
+    100062: BackFoot_L_end
+    100064: BackFoot_R_end
+    100066: BackFootIK_L_end
+    100068: BackFootIK_R_end
+    100070: Ear_L_end
+    100072: Ear_R_end
+    100074: FrontFoot_L_end
+    100076: FrontFoot_R_end
+    100078: FrontFootIK_L_end
+    100080: FrontFootIK_R_end
+    100082: Pole_L_end
+    100084: Pole_R_end
+    100086: PoleBack_L_end
+    100088: PoleBack_R_end
+    100090: "Tai\xC9nd_end"
+    100092: Horse_tex
+    100094: Horse1
+    400000: BackFoot_L
+    400002: BackFoot_R
+    400004: BackFootIK_L
+    400006: BackFootIK_R
+    400008: BackLowerLeg_L
+    400010: BackLowerLeg_R
+    400012: BackUpperLeg_L
+    400014: BackUpperLeg_R
+    400016: Ear_L
+    400018: Ear_R
+    400020: FrontFoot_L
+    400022: FrontFoot_R
+    400024: FrontFootIK_L
+    400026: FrontFootIK_R
+    400028: FrontLowerLeg_L
+    400030: FrontLowerLeg_R
+    400032: FrontUpperLeg_L
+    400034: FrontUpperLeg_R
+    400036: Head
+    400038: Horse
+    400040: //RootNode
+    400042: HorseArmature
+    400044: Pole_L
+    400046: Pole_R
+    400048: PoleBack_L
+    400050: PoleBack_R
+    400052: Root
+    400054: Spine
+    400056: Tail
+    400058: "Tai\xC9nd"
+    400060: Torso
+    400062: BackFoot_L_end
+    400064: BackFoot_R_end
+    400066: BackFootIK_L_end
+    400068: BackFootIK_R_end
+    400070: Ear_L_end
+    400072: Ear_R_end
+    400074: FrontFoot_L_end
+    400076: FrontFoot_R_end
+    400078: FrontFootIK_L_end
+    400080: FrontFootIK_R_end
+    400082: Pole_L_end
+    400084: Pole_R_end
+    400086: PoleBack_L_end
+    400088: PoleBack_R_end
+    400090: "Tai\xC9nd_end"
+    400092: Horse_tex
+    400094: Horse1
+    4300000: Horse
+    4300002: Horse_tex
+    4300004: Horse1
+    7400000: Horse_Walk
+    7400002: Horse_EatLoop
+    7400004: Horse_Idle
+    7400006: Horse_StartEat
+    7400008: Horse_Run
+    9500000: //RootNode
+    13700000: Horse
+    13700002: Horse_tex
+    13700004: Horse1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Horse_Walk
+      takeName: Horse_Walk
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse1
+        weight: 1
+      - path: HorseArmature
+        weight: 1
+      - path: HorseArmature/BackFootIK_L
+        weight: 1
+      - path: HorseArmature/BackFootIK_R
+        weight: 1
+      - path: HorseArmature/FrontFootIK_L
+        weight: 1
+      - path: HorseArmature/FrontFootIK_R
+        weight: 1
+      - path: HorseArmature/Pole_L
+        weight: 1
+      - path: HorseArmature/Pole_R
+        weight: 1
+      - path: HorseArmature/PoleBack_L
+        weight: 1
+      - path: HorseArmature/PoleBack_R
+        weight: 1
+      - path: HorseArmature/Root
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: HorseArmature/Root/Tail
+        weight: 1
+      - path: "HorseArmature/Root/Tail/Tai\xC9nd"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Horse_EatLoop
+      takeName: Horse_EatLoop
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse1
+        weight: 1
+      - path: HorseArmature
+        weight: 1
+      - path: HorseArmature/BackFootIK_L
+        weight: 1
+      - path: HorseArmature/BackFootIK_R
+        weight: 1
+      - path: HorseArmature/FrontFootIK_L
+        weight: 1
+      - path: HorseArmature/FrontFootIK_R
+        weight: 1
+      - path: HorseArmature/Pole_L
+        weight: 1
+      - path: HorseArmature/Pole_R
+        weight: 1
+      - path: HorseArmature/PoleBack_L
+        weight: 1
+      - path: HorseArmature/PoleBack_R
+        weight: 1
+      - path: HorseArmature/Root
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: HorseArmature/Root/Tail
+        weight: 1
+      - path: "HorseArmature/Root/Tail/Tai\xC9nd"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Horse_Idle
+      takeName: Horse_Idle
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse1
+        weight: 1
+      - path: HorseArmature
+        weight: 1
+      - path: HorseArmature/BackFootIK_L
+        weight: 1
+      - path: HorseArmature/BackFootIK_R
+        weight: 1
+      - path: HorseArmature/FrontFootIK_L
+        weight: 1
+      - path: HorseArmature/FrontFootIK_R
+        weight: 1
+      - path: HorseArmature/Pole_L
+        weight: 1
+      - path: HorseArmature/Pole_R
+        weight: 1
+      - path: HorseArmature/PoleBack_L
+        weight: 1
+      - path: HorseArmature/PoleBack_R
+        weight: 1
+      - path: HorseArmature/Root
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: HorseArmature/Root/Tail
+        weight: 1
+      - path: "HorseArmature/Root/Tail/Tai\xC9nd"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Horse_StartEat
+      takeName: Horse_StartEat
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse1
+        weight: 1
+      - path: HorseArmature
+        weight: 1
+      - path: HorseArmature/BackFootIK_L
+        weight: 1
+      - path: HorseArmature/BackFootIK_R
+        weight: 1
+      - path: HorseArmature/FrontFootIK_L
+        weight: 1
+      - path: HorseArmature/FrontFootIK_R
+        weight: 1
+      - path: HorseArmature/Pole_L
+        weight: 1
+      - path: HorseArmature/Pole_R
+        weight: 1
+      - path: HorseArmature/PoleBack_L
+        weight: 1
+      - path: HorseArmature/PoleBack_R
+        weight: 1
+      - path: HorseArmature/Root
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: HorseArmature/Root/Tail
+        weight: 1
+      - path: "HorseArmature/Root/Tail/Tai\xC9nd"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Horse_Run
+      takeName: Horse_Run
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse1
+        weight: 1
+      - path: HorseArmature
+        weight: 1
+      - path: HorseArmature/BackFootIK_L
+        weight: 1
+      - path: HorseArmature/BackFootIK_R
+        weight: 1
+      - path: HorseArmature/FrontFootIK_L
+        weight: 1
+      - path: HorseArmature/FrontFootIK_R
+        weight: 1
+      - path: HorseArmature/Pole_L
+        weight: 1
+      - path: HorseArmature/Pole_R
+        weight: 1
+      - path: HorseArmature/PoleBack_L
+        weight: 1
+      - path: HorseArmature/PoleBack_R
+        weight: 1
+      - path: HorseArmature/Root
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: HorseArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: HorseArmature/Root/Tail
+        weight: 1
+      - path: "HorseArmature/Root/Tail/Tai\xC9nd"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

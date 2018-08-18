@@ -1,0 +1,10 @@
+CAT	고양이
+HEN	암탉
+HORSE	말
+PIANO	피아노
+APPLE	사과
+BANANA	바나나
+RING	반지
+CHAIR	의자
+CAR	차
+SHIP	배

@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 0c0c808dc577b9f43b43c97b0c91cc98
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BackFoot_L
+    100002: BackFoot_R
+    100004: BackFootIK_L
+    100006: BackFootIK_R
+    100008: BackLowerLeg_L
+    100010: BackLowerLeg_R
+    100012: BackUpperLeg_L
+    100014: BackUpperLeg_R
+    100016: Ear_L
+    100018: Ear_R
+    100020: FrontFoot_L
+    100022: FrontFoot_R
+    100024: FrontFootIK_L
+    100026: FrontFootIK_R
+    100028: FrontLowerLeg_L
+    100030: FrontLowerLeg_R
+    100032: FrontUpperLeg_L
+    100034: FrontUpperLeg_R
+    100036: Head
+    100038: //RootNode
+    100040: Pig
+    100042: PigArmature
+    100044: Pole_L
+    100046: Pole_R
+    100048: PoleBack_L
+    100050: PoleBack_R
+    100052: Root
+    100054: Spine
+    100056: Tail
+    100058: Torso
+    400000: BackFoot_L
+    400002: BackFoot_R
+    400004: BackFootIK_L
+    400006: BackFootIK_R
+    400008: BackLowerLeg_L
+    400010: BackLowerLeg_R
+    400012: BackUpperLeg_L
+    400014: BackUpperLeg_R
+    400016: Ear_L
+    400018: Ear_R
+    400020: FrontFoot_L
+    400022: FrontFoot_R
+    400024: FrontFootIK_L
+    400026: FrontFootIK_R
+    400028: FrontLowerLeg_L
+    400030: FrontLowerLeg_R
+    400032: FrontUpperLeg_L
+    400034: FrontUpperLeg_R
+    400036: Head
+    400038: Pig
+    400040: //RootNode
+    400042: PigArmature
+    400044: Pole_L
+    400046: Pole_R
+    400048: PoleBack_L
+    400050: PoleBack_R
+    400052: Root
+    400054: Spine
+    400056: Tail
+    400058: Torso
+    4300000: Pig
+    7400000: Pig_Run
+    7400002: Pig_EatLoop
+    7400004: Pig_Idle
+    7400006: Pig_IdleSit
+    7400008: Pig_Sit
+    7400010: Pig_StartEat
+    7400012: Pig_Walk
+    9500000: //RootNode
+    13700000: Pig
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pig_Run
+      takeName: Pig_Run
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_EatLoop
+      takeName: Pig_EatLoop
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_Idle
+      takeName: Pig_Idle
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_IdleSit
+      takeName: Pig_IdleSit
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_Sit
+      takeName: Pig_Sit
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_StartEat
+      takeName: Pig_StartEat
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pig_Walk
+      takeName: Pig_Walk
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pig
+        weight: 1
+      - path: PigArmature
+        weight: 1
+      - path: PigArmature/BackFootIK_L
+        weight: 1
+      - path: PigArmature/BackFootIK_R
+        weight: 1
+      - path: PigArmature/FrontFootIK_L
+        weight: 1
+      - path: PigArmature/FrontFootIK_R
+        weight: 1
+      - path: PigArmature/Pole_L
+        weight: 1
+      - path: PigArmature/Pole_R
+        weight: 1
+      - path: PigArmature/PoleBack_L
+        weight: 1
+      - path: PigArmature/PoleBack_R
+        weight: 1
+      - path: PigArmature/Root
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_L/BackLowerLeg_L/BackFoot_L
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/BackUpperLeg_R/BackLowerLeg_R/BackFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_L/FrontLowerLeg_L/FrontFoot_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/FrontUpperLeg_R/FrontLowerLeg_R/FrontFoot_R
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_L
+        weight: 1
+      - path: PigArmature/Root/Spine/Torso/Head/Ear_R
+        weight: 1
+      - path: PigArmature/Root/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

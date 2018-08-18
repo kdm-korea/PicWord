@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: df68f46412d02fe4d9a10405d8fcba67
+labels:
+- Animal
+- Farm
+- hand-painted
+- handpainted
+timeCreated: 1487260377
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackFoot_L
+    100002: BackFoot_R
+    100004: BackFootIK_L
+    100006: BackFootIK_R
+    100008: BackLowerLeg_L
+    100010: BackLowerLeg_R
+    100012: Ear_L
+    100014: Ear_R
+    100016: FrontFoot_L
+    100018: FrontFoot_R
+    100020: FrontFootIK_L
+    100022: FrontFootIK_R
+    100024: FrontLowerLeg_L
+    100026: FrontLowerLeg_R
+    100028: Head
+    100030: Rabbit1
+    100032: //RootNode
+    100034: RabbitArmature
+    100036: Root
+    100038: Spine
+    100040: Tail
+    100042: Torso
+    100044: Rabbit1_A
+    400000: BackFoot_L
+    400002: BackFoot_R
+    400004: BackFootIK_L
+    400006: BackFootIK_R
+    400008: BackLowerLeg_L
+    400010: BackLowerLeg_R
+    400012: Ear_L
+    400014: Ear_R
+    400016: FrontFoot_L
+    400018: FrontFoot_R
+    400020: FrontFootIK_L
+    400022: FrontFootIK_R
+    400024: FrontLowerLeg_L
+    400026: FrontLowerLeg_R
+    400028: Head
+    400030: Rabbit1
+    400032: //RootNode
+    400034: RabbitArmature
+    400036: Root
+    400038: Spine
+    400040: Tail
+    400042: Torso
+    400044: Rabbit1_A
+    4300000: Rabbit1
+    4300002: Rabbit1_A
+    9500000: //RootNode
+    13700000: Rabbit1
+    13700002: Rabbit1_A
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
