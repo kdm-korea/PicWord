@@ -29,3 +29,7 @@ Virtual reality and speech recognition for English education
 ### 버전
 
  Unity : Unity 2018.1.6f1
+
+### 로직
+
+![Program logic](README_ScreenCapture/Logic.png)
